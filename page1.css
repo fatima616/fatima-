@@ -21,7 +21,7 @@ nav img{
     width: 60px;
     height: 60px;
 }
-li:hover{
+li:hover a{
     color: #fff;
     border-radius: 8px;
     background-color:#555;
@@ -40,4 +40,8 @@ footer{
 }
 .presentation h2{
     color: black;
+}
+a{
+    text-decoration: none;
+    color: #555;
 }
