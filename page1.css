@@ -1,0 +1,43 @@
+header{
+    background-color:peachpuff;
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    border: #fff 2px solid;
+    background-color: peachpuff;
+    border-radius: 8px;
+}
+nav img{
+    width: 60px;
+    height: 60px;
+}
+li:hover{
+    color: #fff;
+    border-radius: 8px;
+    background-color:#555;
+}
+footer{
+    background-color: peachpuff;
+    display: flex;
+    justify-content: space-around;
+}
+.reseau p{
+       color: black;
+       opacity: 0.6;
+}
+.presentation p{
+    color: black;
+}
+.presentation h2{
+    color: black;
+}
